@@ -5,7 +5,9 @@
 # Ignore specific folders
 additional/
 data/
-results/
+results/sexual debut and time to first teenage pregnancy
+results/teenage pregnancy and schooling status
 paper/
 notebooks/gaf_data_drivers_effects.ipynb
 notebooks/gaf_data_profiling.ipynb
+.gitignore
