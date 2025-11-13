@@ -1,5 +1,4 @@
-# Formative Assessment of Adolescent Girls and Young Women’s HIV, Gender-Based Violence, and Sexual and Reproductive Health Status  
-### Statistical Modelling of Teenage Pregnancy Determinants in Uganda  
+# Statistical Modelling of Teenage Pregnancy Determinants in Uganda  
 
 ---
 
@@ -22,7 +21,7 @@ While many studies describe associated factors, few quantify how much improvemen
 
 ## Data Source  
 The analysis uses data from the **2018 and 2023 Adolescent Girls and Young Women (AGYW) Survey**, conducted across 20 districts by **Makerere University School of Public Health (MakSPH)** and partners.  
-The corresponding **survey questionnaire** is provided in this repository (`journal.pone.0257321.s002.pdf`) for reference.
+The corresponding **survey questionnaire** is provided in this repository (`survey_outline.pdf`) for reference.
 
 ### Sampling Design  
 - **Population:** Adolescent girls and young women aged 10–24 years (N = 8,473)  
@@ -57,11 +56,23 @@ The notebook applies both **descriptive and inferential statistical analyses** i
 ---
 
 ## Outputs  
-The analysis produces:  
-- Descriptive summary tables of pregnant vs. non-pregnant adolescents  
-- Regression tables with odds ratios and 95% confidence intervals  
-- Kaplan-Meier survival curves  
-- Decomposition output showing the contribution of each determinant to pregnancy reduction  
+Below are selected visualizations from the analysis (available in the `results/` directory):
+
+**1. Mean Time to Pregnancy by Age at Sexual Debut**  
+Shows how the average time from sexual debut to first pregnancy shortens with earlier sexual initiation.  
+![Mean Time to Pregnancy by Age at Sexual Debut](results/mean_time_to_preg_by_debut_age_errorbars.png)
+
+**2. Kaplan–Meier Curve: Time to Pregnancy After Sexual Debut**  
+Estimates the probability of remaining non-pregnant over time after sexual initiation.  
+![Kaplan–Meier Time to Pregnancy](results/km_time_to_preg.png)
+
+**3. Kaplan–Meier Curve: Time to Pregnancy After Marriage**  
+Shows cumulative probability of pregnancy following marriage among adolescent girls.  
+![Kaplan–Meier Time to Pregnancy After Marriage](results/km_time_to_preg_after_marry.png)
+
+**4. Global Dumbbell Plot: Sexual Debut vs. Pregnancy Timing**  
+Compares mean ages at sexual debut and at first pregnancy, illustrating exposure windows and interquartile ranges.  
+![Dumbbell Plot — Debut vs. Pregnancy Timing](results/dumbbell_debut_vs_preg_GLOBAL_IQR.png)
 
 ---
 
