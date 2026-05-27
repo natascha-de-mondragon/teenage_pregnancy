@@ -1,13 +1,11 @@
 # Ignore system files
 .DS_Store
+.venv/
 .ipynb_checkpoints/
 
 # Ignore specific folders
 additional/
 data/
-results/sexual debut and time to first teenage pregnancy
-results/teenage pregnancy and schooling status
+results/
 paper/
-notebooks/gaf_data_drivers_effects.ipynb
-notebooks/gaf_data_profiling.ipynb
-.gitignore
+notebooks/other/

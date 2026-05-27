@@ -1,0 +1,32 @@
+paths:
+  data_dir: "./data"
+  results_dir: "./results"
+
+age:
+  min: 10
+  max: 24
+  teen_max: 19
+
+plot:
+  MIN_N: 20
+  FIGSIZE: [6.0, 4.0]
+  FONTSIZE: 10
+  LINEWIDTH: 1.8
+  MARKERSIZE: 5
+  CAPSIZE: 3
+  TEEN_ONLY: false
+  BAR_H: 0.4
+
+data:
+  valid_school_statuses:
+    - in_school
+    - completed_lower_secondary
+    - dropped_out
+  method_cols:
+    - male_condom
+    - female_condom
+    - iud_coil
+    - avoid_other
+    - pill
+    - withdrawal
+    - implant
